@@ -12,9 +12,11 @@ public:
             premult.emplace_back( pre );
         }
         
+        /*
         for( auto i : premult )
             cout<<i << " ";
         cout << endl;
+        */
         
         for(int i=n-1 ; i>=0 ; i-- ){
             suf *= nums[i];
@@ -24,9 +26,11 @@ public:
         
         reverse( sufmult.begin() , sufmult.end());
         
+        /*
         for( auto i : sufmult)
             cout<<i << " ";
         cout<< endl;
+        */
         
         vector<int>store;
         for( int i= 0 ; i<n ; i++ )

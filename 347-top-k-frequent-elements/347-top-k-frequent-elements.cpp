@@ -9,12 +9,35 @@ public:
         
         // This problem can be solved using Hashmap with Bucket sort or Lambda Function or Priority Queue
         
+        // Hashmap Priority Queue approach
         
+        int n = nums.size();
         
+        unordered_map<int , int> freq ;
         
+        for( auto i: nums )
+            freq[i]++;
         
+        priority_queue<pair<int , int>> pq;
         
-        // Below is the Hashmap with Bucket sort approach
+        for( auto i : freq )
+        {
+            pq.push( make_pair( i.second , i.first ));
+        }
+        
+        vector<int> ans ;
+        
+        for( int i=0 ; i<k ; i++ )
+        {
+            ans.emplace_back( pq.top().second );
+            pq.pop();
+        }
+        
+        return ans ;
+        
+        /*
+        
+        // Hashmap with Bucket sort approach
         // I found this approach easy
         
         
@@ -47,6 +70,9 @@ public:
             }
         }
         
+    
         return store;
+        
+        */
     }
 };

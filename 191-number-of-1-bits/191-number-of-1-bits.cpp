@@ -6,7 +6,7 @@ public:
         while(n>0){
             
             // checking if the last digit is 1
-            if( n&1 == 1 )
+            if( n&1 )
             {
                 count++;
             }

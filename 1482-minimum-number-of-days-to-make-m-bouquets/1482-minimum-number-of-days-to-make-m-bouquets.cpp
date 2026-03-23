@@ -1,67 +1,24 @@
 class Solution {
 public:
 
-    int func( vector<int>& daysToBloom , int daysUsed , int k , int m )
-    {
-        printf("Day : %d\n", daysUsed );
-        int bouquetsMade =0 , flowersTaken = 0 , n = daysToBloom.size() ;
+    int func(vector<int>& bloomDay, int daysUsed, int k, int m) {
+    int bouquets = 0;
+    int flowers = 0;
 
-        if( n == 1 )
-        {
-            if( daysToBloom[0] <= daysUsed && k == 1 && m == 1 )
-            {
-                return m ;
+    for (int i = 0; i < bloomDay.size(); i++) {
+        if (bloomDay[i] <= daysUsed) {
+            flowers++;
+            if (flowers == k) {
+                bouquets++;
+                flowers = 0;
             }
-            else
-            {
-                return -1 ;
-            }
+        } else {
+            flowers = 0; // reset if not bloomed
         }
-
-        for( int i=0 ; i < n ; i ++ )
-        {
-            if( flowersTaken < k )
-            {
-                // printf("Flower : %d\n", daysToBloom[i] );
-                // printf("Flowers Taken : %d\nDays : %d\n", flowersTaken , daysUsed );
-                if( i-1 >= 0 && daysToBloom[i] <= daysUsed && daysToBloom[i-1] <= daysUsed )
-                {
-                    flowersTaken ++;
-                    // printf("Flowers Taken : %d\n", flowersTaken , daysUsed );
-
-                    if( flowersTaken == k )
-                    {
-                        bouquetsMade ++;
-                        flowersTaken = 0 ;
-                    }
-                }
-                else if( i+1 <=n-1 && daysToBloom[i] <= daysUsed && daysToBloom[i+1] <= daysUsed )
-                {
-                    flowersTaken ++;
-                    if( flowersTaken == k )
-                    {
-                        bouquetsMade ++;
-                        flowersTaken = 0 ;
-                    }
-                }
-                else if( daysToBloom[i] <= daysUsed )
-                {
-                    flowersTaken ++;
-                    if( flowersTaken == k )
-                    {
-                        bouquetsMade ++;
-                        flowersTaken = 0 ;
-                    }
-                }
-                else{
-                    flowersTaken = 0 ;
-                }
-            }
-            
-        }
-
-        return bouquetsMade;
     }
+
+    return bouquets;
+}
 
 
     int minDays(vector<int>& bloomDay, int m, int k) {

@@ -23,7 +23,7 @@ public:
 
     int minDays(vector<int>& bloomDay, int m, int k) {
 
-        // if ((long long)m * k > bloomDay.size()) return -1;
+        if ((long long)m * k > bloomDay.size()) return -1;
         int n = bloomDay.size();
 
         int minimumDays = INT_MAX , maximumDays = INT_MIN ;

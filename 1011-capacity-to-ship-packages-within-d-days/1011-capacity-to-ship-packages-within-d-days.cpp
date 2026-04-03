@@ -3,8 +3,8 @@ public:
 
     int func( vector<int>& weights , int capacity )
     {
-        int loadPerDay = 0 , daysNeeded = 1 ;
-        for( int j=0 ; j< weights.size() ; j++ )
+        int loadPerDay = 0 , daysNeeded = 1 , n = weights.size() ;
+        for( int j=0 ; j< n ; j++ )
         {
             loadPerDay+= weights[j];
             if( loadPerDay > capacity )

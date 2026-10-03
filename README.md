@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0283-move-zeroes](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0283-move-zeroes) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0283-move-zeroes](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0283-move-zeroes) |
 | [0567-permutation-in-string](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0567-permutation-in-string) |
 ## String

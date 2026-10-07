@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0410-split-array-largest-sum](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0410-split-array-largest-sum) |
+| [0485-max-consecutive-ones](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/1011-capacity-to-ship-packages-within-d-days) |

@@ -8,6 +8,7 @@ public:
 
         vector<pair<char,int>>vec( mp.begin(), mp.end());
 
+        //*** sorting map values in descending order
         sort( vec.begin(), vec.end(), [](const auto& a, const auto& b){
             return a.second>b.second;
         });
@@ -20,7 +21,6 @@ public:
                 ans += it.first;
                 it.second--;
             }
-
         }
 
         return ans;

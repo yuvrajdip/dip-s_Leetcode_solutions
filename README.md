@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0451-sort-characters-by-frequency) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0567-permutation-in-string](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0567-permutation-in-string) |
 ## Sliding Window
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0451-sort-characters-by-frequency) |

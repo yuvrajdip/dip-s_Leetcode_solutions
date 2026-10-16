@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0075-sort-colors) |
+| [0128-longest-consecutive-sequence](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0229-majority-element-ii) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0242-valid-anagram) |
@@ -134,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0451-sort-characters-by-frequency) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/yuvrajdip/dip-s_Leetcode_solutions/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
